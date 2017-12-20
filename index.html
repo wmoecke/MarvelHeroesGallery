@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- META -->
+        <meta charset="utf-8" />
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		
+		<title> Galeria de Heróis </title>
+		<!-- JS -->
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		
+		<div id="stan-lee">
+			<img src="img/stan-lee.png"/>
+		</div>
+		<div class="popover login">
+			<div id="cube-head">
+				<img src="img/x-men-btn.png" onclick="hideStan();"/>
+			</div>
+			<div class="login-component content">
+				<div class="login-title">
+					<span class="black">EXCELSIOR!!</span>
+					<div id="login-title">
+						<p>
+							Muito prazer, meu nome é Stan Lee.<br><br>
+							Aqui você tem acesso TOTAL à minha galeria pessoal!<br><br>
+							Clicando em um herói, eu volto para te contar informações detalhadas, como bio e todas as HQ’s onde esse herói já apareceu!!
+							<br><br><br>
+							(Ah, você também pode clicar ali no 'X' para fechar esse balão!)
+						</p>
+					</div>
+				</div>
+				<button style="clear: both; margin-top: 8%;" class="login" onclick="hideStan();">
+					Entendi, Stan! Vamos lá!
+				</button>
+			</div>
+		</div>
+		
+		<nav class="small" style="background: #1C1521 none repeat scroll 0% 0%">
+			<div class="section gradient">
+				<a class="logo-box" href="#">
+					<img src="img/marvel-comics-logo.png" class="logo" class="tiny-logo" />
+				</a>
+				<span id="gallery">Galeria de Heróis</span>
+			</div>
+		</nav>		
+	</head>
+    
+    <body class="viz-base" style="overflow-y: auto;">
+		<div class="viz-cards"></div>
+		<!-- <div class="wait">
+			<h1> Aguarde<span class="one">.</span><span class="two">.</span><span class="three">.</span> </h1>
+		</div> -->
+    </body>
+</html>
